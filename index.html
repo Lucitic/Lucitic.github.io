@@ -3,18 +3,31 @@
     <head>
         <meta charset="utf-8">
         <title>Welcome to Chris' Webpage</title>
+        <link rel="stylesheet" href="main.css"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
     </head>
-    <nav class="container-fluid">
-        <ul>
+    <div class="title">
+        <h1>Welcome to Chris' Webpage</h1>
+        <h3>Scroll for more</h3>
+    </div>
+
+
+
+    <nav class="container-fluid" id="navbar">
+        <ul >
             <li>
                 <a href="." role="button">Home</a>
             </li>
+            <li>
+                <a href="#projects" role="button">Projects</a>
+            </li>
         </ul>
+
+
     </nav>
-    <body>
-        <main class="container">
-            <div role="menubar">
+    <body >
+        <main class="container" id="block" style="padding:1em 0">
+            <div id="projects" role="menubar">
                 <h2>Projects</h2>
             </div>
             <div role="directory">
