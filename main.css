@@ -1,0 +1,42 @@
+.title{
+    margin: auto;
+    width: 50%;
+    height: 100vh;
+    vertical-align: middle;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title h1 {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}
+.title h3 {
+    margin: auto;
+    width:50%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    opacity: 40%;
+}
+#block {
+    height: 100vh
+}
+.b{
+    .button;
+    outline-color: invert;
+    outline-style: solid;
+}
+#navbar {
+    background: #3c6c86;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}

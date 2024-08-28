@@ -1,3 +1,6 @@
 [submodule "champBotWithWeb/champ-bot"]
 	path = champBotWithWeb/champ-bot
 	url = https://github.com/Lucitic/champ-bot
+[submodule "bingo"]
+	path = bingo
+	url = https://github.com/Luwucitic/bingo-twitch
